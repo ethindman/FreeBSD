@@ -1,0 +1,138 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	min-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, a {
+	color: #a60600;
+}
+
+h1, h2, h3, h4, h5, p, ul, ol {
+	padding: 5px;
+}
+
+span {
+	color: white;
+}
+
+hr {
+	margin: 10px;
+	border: 0; 
+	height: 2px; 
+	background: #828282;
+}
+
+/*Top Right Search Bar and Text Size*/
+
+div.text-size {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 55%;
+	margin-top: 5px;
+}
+
+div.text-size a {
+	color: #DAAC30;
+}
+
+div.text-size ul {
+	margin-bottom: 5px;
+}
+
+div.text-size li {
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+}
+
+input {
+	padding: 2px;
+}
+
+/*Primary Navigation */
+
+nav {
+	background: #e6e6e6;
+	padding: 7px;
+	border-bottom: 1px solid #b4b4b4;
+}
+
+nav li {
+	display: inline;
+	margin: 0px 10px;
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 15px;
+	color: #66666e;
+}
+
+/*Secondary Navigation*/
+
+ul.nav-secondary {
+	margin: 0;
+	padding: 15px 10px;
+	list-style: none;
+}
+
+ul.nav-secondary li:before {
+		 content: "\00BB";
+	     }
+
+ul.nav-secondary li:before {
+		 content: "\00BB \0020";
+	     }
+
+/*Main Page elements*/
+
+header {
+	background-color: #820400;
+}
+
+header h2 {
+	color: white;
+	display: inline-block;
+	margin: 0;
+}
+
+img.header-logo {
+	display: inline-block;
+	margin-left: 30px;
+	width: 500px;
+}
+
+div.container {
+	margin: 30px 25px;
+
+}
+div.column-left {
+	display: inline-block;
+	vertical-align: top;
+	background: #eeeeee;
+	padding: 10px 25px;
+	width: 11%;
+	border: 1px solid #d4d4d4;
+	margin: 10px 5px;
+}
+
+div.column-right {
+	display: inline-block;
+	width: 77%;
+	padding: 0px 25px 25px 25px;
+}
+
+div.column-right h1, h2, h3, h4, h5, p {
+	padding: 10px 5px;
+}
+
+div.column-right ul, ol  {
+	padding: 0px 40px;
+}
